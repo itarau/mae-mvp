@@ -678,7 +678,7 @@ export default function App() {
         },
         body: JSON.stringify({
           model: "claude-sonnet-4-20250514",
-          max_tokens: 1000,
+          max_tokens: 4000,
           system: "Eres el sistema de diagnóstico MAE. Respondes SOLO con JSON válido, sin markdown, sin texto adicional.",
           messages: [{ role: "user", content: prompt }],
         }),
