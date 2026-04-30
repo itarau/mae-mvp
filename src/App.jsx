@@ -677,7 +677,7 @@ export default function App() {
           "anthropic-dangerous-direct-browser-access": "true",
         },
         body: JSON.stringify({
-          model: "claude-sonnet-4-20250514",
+          model: "claude-sonnet-4-5",
           max_tokens: 4000,
           system: "Eres el sistema de diagnóstico MAE. Respondes SOLO con JSON válido, sin markdown, sin texto adicional.",
           messages: [{ role: "user", content: prompt }],
