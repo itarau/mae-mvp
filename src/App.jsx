@@ -341,7 +341,7 @@ function PantallaInicio({ onStart }) {
           Es la calidad de su criterio.
         </p>
         <p className="inicio-desc">
-          Este diagnóstico revela tu arquitectura de autonomía estratégica — dónde está tu criterio real, qué lo limita, y cuáles son las capacidades que ninguna IA puede reemplazarte.
+          Este diagnóstico revela como está tu criterio real, qué lo frena y que capacidades ninguna IA puede reemplazar.
         </p>
         <div className="inicio-meta">
           <span>⏱ 8–10 minutos</span>
